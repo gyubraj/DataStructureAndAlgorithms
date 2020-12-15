@@ -6,6 +6,7 @@ def search(data,element):
     left=0
     right=len(data)-1
     index=-1
+    print("Hello")
     while(left<=right):
         if data[left]==element:
             index=left
